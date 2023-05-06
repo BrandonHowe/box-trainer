@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/box-trainer/static/css/main.03345790.css",
+    "main.js": "/box-trainer/static/js/main.104032e0.js",
+    "index.html": "/box-trainer/index.html",
+    "main.03345790.css.map": "/box-trainer/static/css/main.03345790.css.map",
+    "main.104032e0.js.map": "/box-trainer/static/js/main.104032e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03345790.css",
+    "static/js/main.104032e0.js"
+  ]
+}
