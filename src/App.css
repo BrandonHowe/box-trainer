@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+.app {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.modeText {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 15vmin;
+    user-select: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.startButton {
+    background-color: green;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 400px;
+    max-width: 80%;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.settingsToggleButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #AAA;
+    border: 5px solid #999;
+    color: white;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    z-index: 1000000;
 }
 
-.App-link {
-  color: #61dafb;
+.settingsPage {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #BBB;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.settingsContent {
+    width: 500px;
+    max-width: 90%;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.setting {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.setting label {
+    width: 50%;
+    display: inline-block;
+}
+
+.setting input {
+    border: 1px solid #888;
+    border-radius: 5px;
+    background-color: #CCC;
+    padding: 10px;
+    margin-left: 10%;
+    width: 30%;
 }
